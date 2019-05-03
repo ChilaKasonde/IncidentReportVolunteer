@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/map_zambia">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar2" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Accident"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btnAccident"
+            android:background="@drawable/button_background"
+            android:textColor="#fffdfff2" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Obstraction"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btnObstraction"
+            android:background="@drawable/button_background"
+            android:textColor="#fffdfff2" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Faulty Car"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btnFaultyCar"
+            android:background="@drawable/button_background"
+            android:textColor="#fffdfff2" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Faulty Traffic Lights"
+            android:id="@+id/btnFaultyTraffic"
+            android:background="@drawable/button_background"
+            android:textColor="#fffdfff2" />
+
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" />
+    </LinearLayout>
+</RelativeLayout>
